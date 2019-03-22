@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Todos</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_word">New todo...</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">Todo not saved because it is empty.</string>
+    <string name="todos">ToDos</string>
+    <string name="mark_as_important">Mark as important</string>
+    <string name="show_all">Show all</string>
+    <string name="delete_all">Delete all</string>
+    <string name="update_this_todo">Would you like to update this todo?</string>
+    <string name="update">Update</string>
+    <string name="go_back">Go Back</string>
+    <string name="no_todo">No Todo</string>
+</resources>

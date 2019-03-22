@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="se.iths.sandra.labb2todolistwithsqlight.MainActivity">
+    <item
+        android:id="@+id/delete_todos"
+        android:title="@string/delete_all" />
+</menu>

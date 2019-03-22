@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edit_todo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:hint="@string/hint_word"
+        android:inputType="textAutoComplete"
+        android:padding="@dimen/small_padding"
+        android:layout_marginBottom="@dimen/big_padding"
+        android:layout_marginTop="@dimen/big_padding"
+        android:textSize="18sp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/big_padding"
+        android:layout_marginBottom="@dimen/big_padding"
+        android:text="@string/mark_as_important"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="@string/button_save"
+        android:layout_marginBottom="@dimen/big_padding"
+        android:layout_marginTop="@dimen/big_padding"
+        android:textColor="@color/buttonLabel" />
+
+</LinearLayout>
